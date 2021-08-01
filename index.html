@@ -6,12 +6,17 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style/main.css">
+    <!--- owl Carrousel --->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css"/>
+    <!--- Responsividade --->
+    <link rel="stylesheet" href="style/responsive.css">
     <title>NETFLIX CLONE</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">NETFLIX</h2>
+            <img src="https://fontmeme.com/permalink/210801/1bd694341e499378ed73bae87d84ecc3.png" alt="netflix-font" border="0">
             <nav>
                 <a href="#">Início</a>
                 <a href="#">Séries</a>
@@ -23,19 +28,17 @@
     <main>
         <div class="filme-principal">
             <div class="container">
-                <h3 class="titulo">LOKI</h3>
+                <h3 class="titulo">Digital Innovation One</h3>
                 <p class="descricao">
-                    Começando imediatamente depois que Loki rouba o Tesseracts (de novo),
-                    ele encontra-se diante da Autoridade de Variação Temporal, uma organização burocrática
-                    que existe fora do tempo e espaço.
-                    Forçado a responder por seus crimes contra a linha do tempo, ele recebe uma escolha:
-                    Ser delatado da realidade ou ajudar a capturar uma ameaça ainda maior.
+                    Domine as tecnologias utilizadas pelas empresas mais inovadoras do mundo construindo projetos em conjunto com a nossa comunidade colaborativa de +450 mil desenvolvedores.
                 </p>
                 <div class="botoes">
+                    <a href="https://digitalinnovation.one/">
                     <button  role="button" class="button">
                         <i class="fas fa-play"></i>
-                        ASSISTIR AGORA
+                        Acessar
                     </button>
+                    </a>
                     <button role="button" class="button">
                         <i class="fas fa-info-circle"></i>
                         MAIS INFORMAÇÕES
@@ -43,7 +46,32 @@
                 </div>
             </div>
         </div>
+        <div class="filmes-lista">
+            <div class="owl-carousel owl-theme">
+                <div class="item box-filme">
+                    <a href="https://www.youtube.com/watch?v=SXBNpzjusgY&list=PLb2HQ45KP0WsFop0pItGSUYl6baYjKEye">
+                        <img src="img/intro_js_youtube_glaucia_lemos.png" alt="">
+                    </a>
+                </div>
+                <div class="item box-filme">
+                    <a href="https://www.youtube.com/watch?v=u7K1sdnCv5Y&list=PLb2HQ45KP0Wsk-p_0c6ImqBAEFEY-LU9H">
+                    <img src="img/tscurso_youtube_glaucia_Lemos.gif" alt="">
+                    </a>
+                </div>
+                <div class="item box-filme"><img src="img/mini3.jpg" alt=""></div>
+                <div class="item box-filme"><img src="img/mini4.jpg" alt=""></div>
+                <div class="item box-filme"><img src="img/mini5.jpg" alt=""></div>
+                <div class="item box-filme"><img src="img/mini6.jpg" alt=""></div>
+                <div class="item box-filme"><img src="img/mini7.jpg" alt=""></div>
+                <div class="item box-filme"><img src="img/mini8.jpg" alt=""></div>
+                <div class="item box-filme"><img src="img/mini9.jpg" alt=""></div>
+                <div class="item box-filme"><img src="img/mini10.jpg" alt=""></div>
+            </div>
+        </div>
     </main>
     <script src="https://kit.fontawesome.com/23af0e6bd9.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
