@@ -103,3 +103,31 @@ header nav a:hover{
 .filmes-lista{
     margin-top: 5px;
 }
+
+.info{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("../img/bootcamp_localiza.png");
+    background-size: auto;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 80%;
+
+    background-color: rgba(0,0,0,.5);
+
+    justify-content: center;
+    align-items: center;
+    color: #aaa;
+}
+
+.box h1{
+    color: #fff;
+}
